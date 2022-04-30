@@ -13,6 +13,7 @@
   "scripts": {
     "dev": "yarn workspace vitesse-webext dev",
     "build": "yarn workspace vitesse-webext build",
-    "dev:parcel": "yarn workspace parcel-ext dev"
+    "dev:parcel": "yarn workspace parcel-ext dev",
+    "dev:webpack": "yarn workspace webpack-ext watch"
   }
 }

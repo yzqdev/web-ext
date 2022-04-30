@@ -4,12 +4,14 @@
   "author": "yzqdev",
   "license": "MIT",
   "scripts": {
-    "dev": "parcel build manifest.json ",
-    "start": "parcel watch src/manifest.json --host localhost --config @parcel/config-webextension",
-    "build": "parcel build src/manifest.json --config @parcel/config-webextension"
+    "dev": "parcel watch src/manifest.json --host localhost ",
+    "build": "parcel build src/manifest.json  "
   },
   "devDependencies": {
     "parcel": "latest",
-    "@parcel/config-webextension": "latest"
+    "@parcel/transformer-sass": "2",
+    "@parcel/transformer-vue": "2",
+    "@parcel/config-webextension": "latest",
+    "vue": "3"
   }
 }

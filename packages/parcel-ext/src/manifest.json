@@ -6,6 +6,11 @@
     "service_worker": "background.ts",
     "type": "module"
   },
+  "action": {
+    "default_icon": "image.jpg",
+    "default_title": "plugin-sample",
+    "default_popup": "popup.html"
+  },
   "content_scripts": [
     {
       "matches": ["*://github.com/parcel-bundler/*"],
