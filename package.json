@@ -12,6 +12,7 @@
   "private": true,
   "scripts": {
     "dev": "yarn workspace vitesse-webext dev",
-    "build": "yarn workspace vitesse-webext build"
+    "build": "yarn workspace vitesse-webext build",
+    "dev:parcel": "yarn workspace parcel-ext dev"
   }
 }

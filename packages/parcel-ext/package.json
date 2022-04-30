@@ -1,0 +1,15 @@
+{
+  "name": "parcel-ext",
+  "version": "1.0.0",
+  "author": "yzqdev",
+  "license": "MIT",
+  "scripts": {
+    "dev": "parcel build manifest.json ",
+    "start": "parcel watch src/manifest.json --host localhost --config @parcel/config-webextension",
+    "build": "parcel build src/manifest.json --config @parcel/config-webextension"
+  },
+  "devDependencies": {
+    "parcel": "latest",
+    "@parcel/config-webextension": "latest"
+  }
+}
