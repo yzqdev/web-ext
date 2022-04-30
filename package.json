@@ -1,0 +1,17 @@
+{
+  "name": "web-ext",
+  "workspaces": [
+    "packages/*",
+    "demos/*"
+  ],
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/yzqdev/web-ext.git",
+  "author": "yzqdev <yzqdev@outlook.com>",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "dev": "yarn workspace vitesse-webext dev",
+    "build": "yarn workspace vitesse-webext build"
+  }
+}
